@@ -17,9 +17,6 @@
 - [📊 Dataset Information](#-dataset-information)
 - [🏗️ Model Architecture](#️-model-architecture)
 - [🚀 Quick Start](#-quick-start)
-- [⚙️ Hyperparameter Experiments](#️-hyperparameter-experiments)
-- [📈 Results & Performance](#-results--performance)
-- [📚 Academic Documentation](#-academic-documentation)
 - [🔧 Installation & Requirements](#-installation--requirements)
 - [📝 Usage Instructions](#-usage-instructions)
 - [🎨 Visualizations](#-visualizations)
@@ -50,7 +47,7 @@ SignLanguage/
 │   ├── dataset_samples.png           # Dataset sample images
 │   ├── sample_images.png             # Class distribution samples
 │   └── training_histories.png        # Training/validation curves
-│
+|
 ├── 🐍 cnn_experiments.py         # Main implementation & experiments
 ├── 🔍 investigate_data.py            # Dataset exploration script
 ├── 📄 README.md                      # This comprehensive guide
@@ -135,69 +132,6 @@ python cnn_experiments.py
 ```bash
 python investigate_data.py
 ```
-
-## ⚙️ Hyperparameter Experiments
-
-<div align="center">
-
-### 🧪 **11 Comprehensive Experiments Conducted**
-
-| **Parameter** | **Values Tested** | **Best Value** |
-|---------------|-------------------|----------------|
-| 🔢 **Batch Size** | [16, 32, 64] | **16-32** |
-| 📈 **Learning Rate** | [0.0005, 0.001, 0.002] | **0.001** |
-| 💧 **Dropout Rate** | [0.2, 0.3, 0.5] | **0.3** |
-| 🔒 **L1 Regularization** | [0.0, 0.001] | **0.001** |
-| 🔒 **L2 Regularization** | [0.001, 0.005] | **0.005** |
-| ⏱️ **Early Stopping** | [5, 15, 20] | **15-20 epochs** |
-
-</div>
-
-### 📋 **Experiment Configurations:**
-1. **Baseline Model** - Default parameters
-2. **Batch Size Variations** - 16, 32, 64
-3. **Learning Rate Tuning** - 0.0005, 0.001, 0.002  
-4. **Dropout Optimization** - 0.2, 0.3, 0.5
-5. **L1 Regularization** - λ = 0.001
-6. **L2 Regularization** - λ = 0.005
-7. **Early Stopping** - Patience variations
-
-## 📈 Results & Performance
-
-### 🏆 **Top Performing Models:**
-
-<div align="center">
-
-| **Rank** | **Model** | **Accuracy** | **Precision** | **Recall** | **F1-Score** | **AUC-ROC** |
-|----------|-----------|--------------|---------------|------------|--------------|-------------|
-| 🥇 | **Baseline** | **97.58%** | **97.61%** | **97.58%** | **97.58%** | **99.98%** |
-| 🥈 | **Batch Size 16** | **96.85%** | **96.85%** | **96.85%** | **96.85%** | **99.93%** |
-| 🥉 | **L2 Regularization** | **96.61%** | **96.78%** | **96.59%** | **96.59%** | **99.94%** |
-| 4️⃣ | **L1 Regularization** | **96.13%** | **96.17%** | **96.12%** | **96.10%** | **99.91%** |
-
-</div>
-
-### 💡 **Key Insights:**
-- ✅ **Exceptional Performance**: 97.58% accuracy achieved
-- ✅ **Robust Generalization**: High AUC-ROC scores (>99.9%)
-- ✅ **Balanced Metrics**: Consistent precision, recall, and F1-scores
-- ✅ **Optimal Configuration**: Moderate batch sizes and dropout rates work best
-
-## 📚 Academic Documentation
-
-This project includes comprehensive academic documentation following **IEEE conference paper standards**:
-
-### 📄 **Report Sections:**
-1. **📝 Abstract** - Methodology and results summary
-2. **🎯 Introduction** - Problem statement and motivation  
-3. **📖 Related Work** - Literature review and background
-4. **🔬 Methodology** - Dataset, preprocessing, and architecture
-5. **📊 Experimental Results** - Comprehensive analysis and comparisons
-6. **💭 Discussion** - Insights and practical implications
-7. **⚠️ Limitations** - Current constraints and future work
-8. **🎯 Conclusion** - Key findings and contributions
-
-> **Note**: LaTeX source files are kept private but the methodology and results are fully documented in this README.
 
 ## 🔧 Installation & Requirements
 
