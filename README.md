@@ -117,8 +117,8 @@ Input (64×64×1)
 
 ### 1️⃣ **Clone and Setup**
 ```bash
-git clone <repository-url>
-cd SignLanguage
+git clone https://github.com/Muhammad-Hamdan-Rauf/sign-language-digit-cnn
+cd sign-language-digit-cnn
 ```
 
 ### 2️⃣ **Install Dependencies**
@@ -128,7 +128,7 @@ pip install tensorflow numpy matplotlib seaborn scikit-learn pandas
 
 ### 3️⃣ **Run Experiments**
 ```bash
-python cpu_cnn_experiments.py
+python cnn_experiments.py
 ```
 
 ### 4️⃣ **Explore Data** (Optional)
@@ -204,7 +204,7 @@ This project includes comprehensive academic documentation following **IEEE conf
 ### 📋 **System Requirements:**
 - 🐍 **Python**: 3.8 or higher
 - 💾 **RAM**: 8GB+ recommended  
-- ⚡ **CPU**: Multi-core processor (GPU not required)
+- ⚡ **CPU**: Multi-core processor (GPU not required but recommended)
 - 💿 **Storage**: 500MB+ free space
 
 ### 📦 **Dependencies:**
@@ -224,7 +224,7 @@ pip install tensorflow numpy matplotlib seaborn scikit-learn pandas
 
 ## 📝 Usage Instructions
 
-### 🎯 **Primary Script: `cpu_cnn_experiments.py`**
+### 🎯 **Primary Script: `cnn_experiments.py`**
 
 This script performs the complete experimental pipeline:
 
@@ -247,7 +247,7 @@ Dedicated dataset exploration and analysis:
 
 ```bash
 # Run complete experimental suite
-python cpu_cnn_experiments.py
+python cnn_experiments.py
 
 # Explore dataset characteristics
 python investigate_data.py
