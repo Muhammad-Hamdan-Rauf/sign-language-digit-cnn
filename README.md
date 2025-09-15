@@ -51,7 +51,7 @@ SignLanguage/
 │   ├── sample_images.png             # Class distribution samples
 │   └── training_histories.png        # Training/validation curves
 │
-├── 🐍 cpu_cnn_experiments.py         # Main implementation & experiments
+├── 🐍 cnn_experiments.py         # Main implementation & experiments
 ├── 🔍 investigate_data.py            # Dataset exploration script
 ├── 📄 README.md                      # This comprehensive guide
 ├── ⚖️ LICENSE                        # Academic Reference License
